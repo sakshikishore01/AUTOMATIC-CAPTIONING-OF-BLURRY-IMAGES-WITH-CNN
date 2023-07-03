@@ -19,6 +19,8 @@ Blur image captioning is a challenging task that involves generating accurate an
 
 Dataset :
 
+https://www.kaggle.com/datasets/sayanf/flickr8k/download?datasetVersionNumber=5
+
 The Flickr_8K dataset is used for the model training of image caption generators.8092 images are stored inside the Flicker8k_Dataset folder and the text files with captions of images are stored in the Flickr_8k_text folder.
 
 There are also some text files related to the images. One of the files is “Flickr8k.token.txt” which has each image along with its 5 captions. Every line contains the <image name>#i <caption>, where 0≤i≤4 i.e. the name of the image, caption number (0 to 4) and the actual caption.
